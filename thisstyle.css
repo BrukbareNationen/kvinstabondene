@@ -103,15 +103,16 @@ h3 {
         top: 0px;
         left: 0px;
     }
+    body {
+        overflow: visible;
+    }
 
     .bylineimg img {
         margin-top: 50px;
     }
     
 
-    body {
-        overflow: visible;
-    }
+    
 
     .section:nth-child(odd)  .row{
         display: flex;
@@ -136,8 +137,8 @@ h3 {
 
     .section{   
         min-height: 600px;
-        height: 100vh;
-        max-height: 800px;
+        height: auto;
+        max-height: 2000px;
         
     }
 
@@ -164,6 +165,16 @@ h3 {
     .byline-wrapper {
         margin-bottom: 130px;
     }   
+
+    .polaroid img {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    body {
+        overflow: visible;
+    }
 
    
 }
