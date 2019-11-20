@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Fira Mono', monospace;
+    font-family: adellesansregular, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -128,9 +128,11 @@ p {
 
 .byline {
     padding: 20px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
+
+
 
 .sitat {
 
@@ -581,6 +583,10 @@ hr {
     .byline p, .byline i {
         text-align: center;
         font-size: 16px;
+    }
+
+    .byline p {
+        letter-spacing: 15px;
     }
 
     .text p {
