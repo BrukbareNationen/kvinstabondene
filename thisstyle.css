@@ -64,7 +64,9 @@ h3 {
     font-family: adelle_sansthin;
 }
 
-
+.byline i {
+    letter-spacing: 1px;
+}
 
 .bylineimg img {
     position: relative;
