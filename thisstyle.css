@@ -1,0 +1,125 @@
+
+
+.section {
+    max-height: 14000px;
+    height: auto;  
+    margin: 100px auto;  
+    background-color: white; 
+}
+
+
+
+.polaroid img{
+    max-width: 600px;
+    width: 100%;
+}
+
+.insta-text {
+    margin: auto;
+    
+}
+
+.ingress {
+    max-width: 900px;
+    margin: 100px auto;
+    
+    
+}
+
+.insta-text p {
+    font-size: 20px;
+}
+
+p {
+    font-family: adelle_sansthin;
+}
+
+h3 {
+    font-family: adelle_sansheavy;
+}
+
+h3 {
+    font-family: adelle_sansthin;
+}
+
+h3 {
+    font-family: adelle_sansregular;
+}
+
+.bylineimg img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+ /******** SMALL SCREEN *******/
+ @media screen and (min-width: 576px) and (max-width:767px){
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section {
+        margin-bottom: 200px;
+    }
+
+    .bylineimg img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+ }
+
+ /******** Medium SCREEN *******/
+@media screen and (min-width: 768px) and (max-width:991px){
+
+    .section{   
+        min-height: 600px;
+        height: auto;
+       
+        
+    }
+
+    .polaroid img {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    
+
+    body {
+        overflow: visible;
+    }
+
+    .bylineimg img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    
+
+}
+
+ 
+ /******** Large SCREEN *******/
+
+@media screen and (min-width: 992px){
+
+    .section{   
+        min-height: 600px;
+        height: 100vh;
+        max-height: 800px;
+        
+    }
+
+    .bylineimg img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+}
