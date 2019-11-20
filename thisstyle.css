@@ -3,15 +3,25 @@
 .section {
     max-height: 14000px;
     height: auto;  
-    margin: 100px auto;  
+    margin: 150px auto;  
     background-color: white; 
+}
+
+.minh800 {
+    min-height: 800px;
+}
+
+.minh700 {
+    min-height: 700px;
+}
+.minh600 {
+    min-height: 600px;
 }
 
 
 
-
 .polaroid img{
-    max-width: 600px;
+    max-width: 900px;
     width: 100%;
 }
 
@@ -92,8 +102,9 @@ h3 {
 @media screen and (min-width: 768px) and (max-width:991px){
 
     .section{   
-        min-height: 600px;
+        min-height: 700px;
         height: auto;
+        margin-bottom: 100px;
         
     }
 
@@ -136,7 +147,7 @@ h3 {
 @media screen and (min-width: 992px){
 
     .section{   
-        min-height: 800px;
+        min-height: 600px;
         height: auto;
         max-height: 2000px;
         

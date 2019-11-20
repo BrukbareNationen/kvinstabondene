@@ -578,7 +578,7 @@ hr {
     }
 
 
-    .byline p {
+    .byline p, .byline i {
         text-align: center;
         font-size: 16px;
     }
