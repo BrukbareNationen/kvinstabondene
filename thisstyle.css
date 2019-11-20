@@ -60,6 +60,10 @@ h3 {
     flex-direction: column-reverse;
 }
 
+.ingress h3 {
+    line-height: 35px;
+}
+
  /******** SMALL SCREEN *******/
  @media screen and (min-width: 576px) and (max-width:767px){
 
@@ -76,6 +80,10 @@ h3 {
         margin-top: 50px;
     }
 
+    .ingress h3 {
+        line-height: 35px;
+    }
+
     
 
  }
@@ -87,10 +95,7 @@ h3 {
         min-height: 600px;
         height: auto;
         
-        
     }
-
-    
 
     .polaroid img {
         position: -webkit-sticky;
@@ -115,6 +120,10 @@ h3 {
     
     #tittelimg {
         width: 75%;
+    }
+
+    .ingress h3 {
+        line-height: 35px;
     }
 
 
@@ -149,6 +158,7 @@ h3 {
         width: 60%;
         margin: auto;
         font-size: 25px;
+        line-height: 40px;
     }
     
     .byline-wrapper {
@@ -169,6 +179,7 @@ h3 {
         width: 60%;
         margin: auto;
         font-size: 25px;
+        line-height: 40px;
     }
 
 
