@@ -74,6 +74,10 @@ h3 {
     left: 0;
 }
 
+.byline-wrapper hr {
+    width: 330px;
+}
+
 .section:nth-child(odd)  .row{
     display: flex;
     flex-direction: column-reverse;
@@ -83,9 +87,13 @@ h3 {
     line-height: 35px;
 }
 
+
+
 #tittelimgl {
     width: 85%;
 }
+
+
 
  /******** SMALL SCREEN *******/
  @media screen and (min-width: 576px) and (max-width:767px){
